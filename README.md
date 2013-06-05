@@ -1,3 +1,3 @@
-yangdong.github.io
-==================
-Yet Another Blog
+# Yang Dong
+Yet another blog 
+
