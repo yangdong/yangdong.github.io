@@ -38,7 +38,7 @@ module Jekyll
       doc.elements.each("feed/entry") do |item|
         categories = []
         link = item.elements["link"].attributes['href']
-		permalink = link[link.index('/',7)..-1]
+		    permalink = link[link.index('yangdong/',7)..-1]
 
         # Use the URL after the last slash as the post's name
         name = link.split("/")[-1]
@@ -51,7 +51,7 @@ module Jekyll
 
         title = item.elements["title"].text
 
-	    #title = $1 if title =~ /\[.+\] (.+)/
+	      #title = $1 if title =~ /\[.+\] (.+)/
 
         content_element = (item.elements["content"] or item.elements["description"])
         unless content_element
@@ -69,8 +69,8 @@ module Jekyll
               "name" => name,
               "title" => title,
               "date" => timestamp,
-		"categories" => categories,
-		"permalink" => permalink,
+		          "categories" => categories,
+		          "permalink" => permalink,
             },
             f
           )
