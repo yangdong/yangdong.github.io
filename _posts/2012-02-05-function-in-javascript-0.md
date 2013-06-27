@@ -34,6 +34,7 @@ function func1(name) { return name; }
 {% endhighlight %}
 在运行时到底调用哪一个function取决于加载顺序,后一个加载的function会覆盖前一个.
 
+<!-- more -->
 换句话说就是,function的参数都是可选参数,因此funciton的识别是不包括如参的,而函数入参处的声明是为了引用方便以及可读性.
 以上的代码也等价于:
 {% highlight javascript %}

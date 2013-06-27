@@ -7,7 +7,6 @@ tags: [javascript]
 tagline: 构造函数
 language: javascript
 ---
-{% include JB/setup %}
 
 ### 回顾 ###
 
@@ -16,6 +15,7 @@ language: javascript
 
 这篇文章的目的向大家详细介绍function是如何作为*构造函数*。
 
+<!-- more -->
 ### 如何定义一个函数 ###
 * _声明式_
 

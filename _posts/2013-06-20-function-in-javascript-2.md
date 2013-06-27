@@ -41,6 +41,7 @@ dog.eat();   //pipi is eating!
 dog.bark();  //pipi is barking!
 {% endhighlight %}
 
+<!-- more -->
 #### Prototype对象
 #### 原型链
 
