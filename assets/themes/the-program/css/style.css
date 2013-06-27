@@ -602,10 +602,6 @@ pre {
 .the-header .nav-global .logo {
   text-transform: none;
 }
-.the-header .nav-global .forkme {
-  position: relative;
-  top: 2px;
-}
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
