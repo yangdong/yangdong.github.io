@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html xmlns:wb="http://open.weibo.com/wb">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
@@ -21,6 +21,7 @@
 				<nav class="nav-global">
 					<ul>
 						<li class="logo"><a href="/">{{ site.title }}</a></li>
+						<li class="add-me-as-frientd"><wb:follow-button uid="1225704387" type="red_1" width="67" height="24" ></wb:follow-button></li>
 						<li class="archive"><a href="/archive.html">archive</a></li>
 						<li class="page"><a href="/pages.html">pages</a></li>
 						<li class="category"><a href="/categories.html">categories</a></li>
@@ -49,6 +50,9 @@
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
 						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
 						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
+						<li class="weibo">
+							<wb:share-button size="middle" relateuid="1225704387" ></wb:share-button>
+						</li>
 					</ul>
 				</div><!-- misc -->
 				<p class="licence">
@@ -59,6 +63,7 @@
 		</div><!-- unit-foot -->
 	</footer>
 </div><!-- page -->
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=" type="text/javascript" charset="utf-8"></script>
 <script>
 	(function(d, s) {
 		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
