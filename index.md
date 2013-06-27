@@ -8,7 +8,13 @@ tagline: Continuous Improvment
 <ul class="posts">
   {% for post in site.posts %}
   {% if post.categories.first != 'draft' %}
-    <li class="post"><span class="{{post.categories}}">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li class="post {{post.categories}}">
+        <a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        {% if post.excerpt_tag %}
+            {{ post.excerpt_tag | markdownify }}...
+        {% endif %}
+    </li>
   {% endif %}
   {% endfor %}
 </ul>

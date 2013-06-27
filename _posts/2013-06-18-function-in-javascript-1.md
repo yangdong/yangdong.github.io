@@ -9,6 +9,7 @@ language: javascript
 ---
 {% include JB/setup %}
 
+{% excerpt %}
 ### 回顾 ###
 
 [*上一篇文章*](/yangdong/archive/2012/02/05/function-in-javascript-0.html/)中介绍了function在javascirpt作为一等公民所担任的重要责任，在不同
@@ -37,7 +38,7 @@ Animal.prototype.bark = function() {return 'bark'};
 {% endhighlight %}
 
 其实这两种发式完全一样，没有任何区别，你同样可以为add的prototype属性增加新的函数或者属性。不过两种方式是基于不同的用途产生的，我们之所以称后者为构造函数，仅仅因为它的*命名*和*函数实现*。
-
+{% endexcerpt %}
 *命名*: 对于构造函数我们遵循首字母大学的规则以区别普通函数和方法，这和java中对于类的定义是非常相似的。<br>
 *实现*: 构造函数是我们用来生产实例对象的工具，它通长与new关键字连用，如
 

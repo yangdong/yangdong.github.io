@@ -719,12 +719,13 @@ pre {
   margin-left: 0;
   margin-right: 0;
 }
-.unit-article p code,
+/*.unit-article p code,
 .unit-article li code {
   padding: 2px 5px;
   white-space: nowrap;
   background-color: #fff04a;
 }
+*/
 .unit-article img {
   display: block;
   margin-left: auto;
@@ -1481,4 +1482,26 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+
+li.post {
+  list-style: none;
+}
+.post .date {
+  background-color: black;
+  color: white;
+}
+.post .title {
+  font-size: 24px;
+  line-height: 60px;
+}
+.post .title:before {
+  background-color: green;
+  width: 10px;
+  content: "\00a0";
+  padding: 10px 0;
+}
+.post {
+  border-bottom: 1px solid green;
+  margin-bottom: 10px;
 }
