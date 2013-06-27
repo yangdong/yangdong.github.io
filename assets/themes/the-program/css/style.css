@@ -658,9 +658,6 @@ pre {
 .unit-article a:link {
   border-bottom: 1px dashed #c26164;
 }
-.unit-article a:visited {
-  border-bottom: 1px dashed #ad4346;
-}
 .unit-article a:hover {
   border-bottom: 1px dashed #d08688;
 }
@@ -1491,6 +1488,9 @@ li.post {
   background-color: black;
   color: white;
 }
+.post a.title:link {
+  border-bottom: 0;
+}
 .post .title {
   font-size: 24px;
   line-height: 60px;
@@ -1500,6 +1500,7 @@ li.post {
   width: 10px;
   content: "\00a0";
   padding: 10px 0;
+  margin-right: 10px;
 }
 .post {
   border-bottom: 1px solid green;
@@ -1508,4 +1509,5 @@ li.post {
 
 .post .readmore:hover {
   background-color: #CD4900;
+  color: white;
 }

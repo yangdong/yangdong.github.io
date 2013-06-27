@@ -15,7 +15,6 @@ language: javascript
 
 这篇文章的目的向大家详细介绍function是如何作为*构造函数*。
 
-<!-- more -->
 ### 如何定义一个函数 ###
 * _声明式_
 
@@ -36,6 +35,7 @@ function Animal(name, age) {
 Animal.prototype.bark = function() {return 'bark'};
 {% endhighlight %}
 
+<!-- more -->
 其实这两种发式完全一样，没有任何区别，你同样可以为add的prototype属性增加新的函数或者属性。不过两种方式是基于不同的用途产生的，我们之所以称后者为构造函数，仅仅因为它的*命名*和*函数实现*。
 
 *命名*: 对于构造函数我们遵循首字母大学的规则以区别普通函数和方法，这和java中对于类的定义是非常相似的。<br>
