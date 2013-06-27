@@ -11,9 +11,6 @@ tagline: Continuous Improvment
     <li class="post {{post.categories}}">
         <a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         <span class="date">{{ post.date | date_to_string }}</span>
-        {% if post.excerpt_tag %}
-            {{ post.excerpt_tag | markdownify }}...
-        {% endif %}
     </li>
   {% endif %}
   {% endfor %}

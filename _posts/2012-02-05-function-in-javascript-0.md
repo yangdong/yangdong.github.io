@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-{% excerpt %}
+
 function作为javascript的核心技术之一,清晰的理解function的机制和用法,对我们进行javascript开发非常重要.
 
 今天本人就结合自己的实践为大家介绍一些function在javascript中的一些浅显用法.
@@ -33,7 +33,7 @@ function func1() {return 'func1'; }
 function func1(name) { return name; }
 {% endhighlight %}
 在运行时到底调用哪一个function取决于加载顺序,后一个加载的function会覆盖前一个.
-{% endexcerpt %}
+
 换句话说就是,function的参数都是可选参数,因此funciton的识别是不包括如参的,而函数入参处的声明是为了引用方便以及可读性.
 以上的代码也等价于:
 {% highlight javascript %}

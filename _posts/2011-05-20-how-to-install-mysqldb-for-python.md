@@ -8,7 +8,6 @@ categories: []
 permalink: yangdong/archive/2011/05/20/how-to-install-mysqldb-for-python.html
 ---
 {% include JB/setup %}
-{% excerpt %}
 
 最近在学习Django和wxPython，但是光是安装整个的开发环境，就忙了好几天，好不容易的找到了安装出错的原因，特此分享给大家。
 
@@ -29,7 +28,6 @@ mac上查询python是32位还是64位的命令是：
 
 如果出现以下信息：
 
-{% endexcerpt %}
 
     Traceback (most recent call last):
     File "setup.py", line 6, in <module>
