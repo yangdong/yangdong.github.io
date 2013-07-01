@@ -1507,3 +1507,17 @@ li.post {
   background-color: #CD4900;
   color: white;
 }
+.content {
+  position: relative;
+}
+.content.todo .bd:before {
+  color: red;
+  content: "draft";
+  font-size: 100px;
+  left: 150px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  transform: rotate(-45deg);
+}

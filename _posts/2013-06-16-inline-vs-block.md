@@ -2,7 +2,7 @@
 layout: post
 title: "inline vs block"
 description: ""
-category: draft
+category: todo
 tags: [html]
 ---
 {% include JB/setup %}
