@@ -42,7 +42,11 @@ dog.bark();  //pipi is barking!
 {% endhighlight %}
 
 <!-- more -->
-#### Prototype对象
+#### prototype对象
+
+prototype对象是class的灵魂，如果用另外一种方式来定义class的话，他可以是满足以下条件的函数，它能够创建基于给定prototype对象的实例对象。因此，我们可以显而易见的看出prototype的重要地位。
+
+那些对象能够访问prototype对象呢？
 #### 原型链
 
 - prototype属性和__proto__属性
