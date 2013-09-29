@@ -80,7 +80,7 @@ tags: [wechat, heroku, ruby]
 ![au commercial](http://farm3.staticflickr.com/2844/9952364123_be26735673_n.jpg)
 
 #### 代码
-所有的代码都托管在github上*git@github.com:yangdong/wechat-tutorial.git*
+所有的代码都托管在github上*https://github.com/yangdong/wechat-tutorial.git*
 该服务器完成了对以下功能：   
 1. 响应微信平台的验证请求  
 2. 响应用户关注该公众账户  
