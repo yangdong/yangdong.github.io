@@ -4,6 +4,7 @@ title: "简单几步成为微信公众平台开发者"
 description: ""
 category: 
 tags: [wechat, heroku, ruby]
+comments: true
 ---
 {% include JB/setup %}
 

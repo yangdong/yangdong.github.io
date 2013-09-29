@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Greetings from Dong
-tagline: Continuous Improvment
+title: Continuous Improvement
+tagline: Continuous Improvement
 ---
 {% include JB/setup %}
 
