@@ -80,12 +80,8 @@ tags: [wechat, heroku, ruby]
 ![au commercial](http://farm3.staticflickr.com/2844/9952364123_be26735673_n.jpg)
 
 #### 代码
-所有的代码都托管在github上
-
-> git@github.com:yangdong/wechat-tutorial.git
-
-该服务器完成了对以下功能：
-
+所有的代码都托管在github上*git@github.com:yangdong/wechat-tutorial.git*
+该服务器完成了对以下功能：   
 1. 响应微信平台的验证请求  
 2. 响应用户关注该公众账户  
 3. 响应用户查询帮助信息   
@@ -94,44 +90,32 @@ tags: [wechat, heroku, ruby]
 #### 部署
 *准备工作*：
 [*github*](http://github.com/)账户
-[*Heroku*](http://heroku.com/)账户
-
+[*Heroku*](http://heroku.com/)账户  
 *目标*：
-将github中的代码部署到Heroku
-
+将github中的代码部署到Heroku  
 *工具*
 [snap ci](https://snap-ci.com)它是一个持续集成工具，能够帮助我们非常轻松的将github中的代码，部署到Heroku上，这样我们仅需要关注我们的业务代码，而无需关心部署的流程。
-如果想要深入了解持续集成，可以参考[Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)，同时这本书也不错[持续集成](http://book.douban.com/subject/2580604/)。
-
-*LET'S GO*
-
-  1. Fork wechat-tutorial到自己的github
-
-  2. 使用github账户登陆snap-ci
-
+如果想要深入了解持续集成，可以参考[Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration)，同时这本书也不错[持续集成](http://book.douban.com/subject/2580604/)。  
+*LET'S GO*  
+  1. Fork wechat-tutorial到自己的github  
+  2. 使用github账户登陆snap-ci  
   ![snap ci login](https://lh6.googleusercontent.com/-BmUGhR0BZQI/UkfG8AS_tbI/AAAAAAAABuk/h1hi3bwyX7g/w507-h213-no/snap-ci-01-login.png)
-  3. 为刚刚fork的代码仓库创建一个snap-ci的工程
-
+  3. 为刚刚fork的代码仓库创建一个snap-ci的工程  
   ![snap ci create project](https://lh4.googleusercontent.com/-e4n756zBU9I/UkfG8cFg8gI/AAAAAAAABuo/x9zrWikOVqM/w488-h107-no/snap-ci-02-add-project.png)
   
   snap ci会加载你托管在github中的所有仓库，我们选择wechat-tutorial
   ![snap ci we chat](https://lh4.googleusercontent.com/-3NvlIe4-RQc/UkfG8Rrs0fI/AAAAAAAABu4/Tdlp5ghwln0/w517-h69-no/snap-ci-03-add-wechat.png)
   ![snap ci creating](https://lh3.googleusercontent.com/-pHkiUH-JB84/UkfG86q0_0I/AAAAAAAABu8/fCgfWaTxO5U/w516-h78-no/snap-ci-04-creating.png)
-  4. 为该流水线创建所需要的构建流程，我们只需要增加部署到Heroku
-
+  4. 为该流水线创建所需要的构建流程，我们只需要增加部署到Heroku   
   ![snap ci adding build stage](https://lh3.googleusercontent.com/-6BjKY5RuQSI/UkfPrFd9c0I/AAAAAAAABwY/Zbp4ZYYTNdU/w603-h561-no/snap-ci-05-create-pipleline.png)
   
   我们选择“*Heroku Deployment Stage*”，在这一步中，需要你Heroku账户为snap-ci授权，以便于它能够创建和部署应用
   ![snap ci adding heroku](https://lh5.googleusercontent.com/-LemmnW0NQBw/UkfPrAIq3hI/AAAAAAAABwU/bb47y425Qkw/w590-h190-no/snap-ci-07-use-heroku.png)
-  ![snap ci adding deploying wechat to heroku](https://lh5.googleusercontent.com/-2HoW00ILVs4/UkfG9xXfsLI/AAAAAAAABvM/DTjMb7rHwus/w548-h221-no/snap-ci-09-pipeline-created.png)
-
-  5. 等待构建
-
+  ![snap ci adding deploying wechat to heroku](https://lh5.googleusercontent.com/-2HoW00ILVs4/UkfG9xXfsLI/AAAAAAAABvM/DTjMb7rHwus/w548-h221-no/snap-ci-09-pipeline-created.png)   
+  5. 等待构建   
   恭喜你，已经完成99%的工作了，剩下的1%将由snap-ci为你完成，并且以后永远都是由它帮你完成，你成功的拥有了一个免费的不知疲倦的劳动力了。
-  ![snap ci waiting for build](https://lh4.googleusercontent.com/-QW15QCwZoys/UkfG-pCRunI/AAAAAAAABvc/zwB4bG7bZH4/w255-h411-no/snap-ci-10-build-scheduled.png)
-
-  6. 大功告成
-
+  ![snap ci waiting for build](https://lh4.googleusercontent.com/-QW15QCwZoys/UkfG-pCRunI/AAAAAAAABvc/zwB4bG7bZH4/w255-h411-no/snap-ci-10-build-scheduled.png)    
+  6. 大功告成   
   当你看到绿色的“*PASSED*”字样时，你的所有部署工作就完成了，你现在就可以访问自己的公众账户服务器了。
   ![snap ci build success](https://lh6.googleusercontent.com/-Z87CYa4xEKc/UkfG_BEBDZI/AAAAAAAABvo/GjZx-YS1R0U/w409-h441-no/snap-ci-11-builds.png)
 
