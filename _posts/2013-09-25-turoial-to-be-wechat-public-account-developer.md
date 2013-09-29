@@ -121,3 +121,5 @@ tags: [wechat, heroku, ruby]
 
   如何验证你的服务器是否工作正常，很简单，在浏览器中输入“http://你的应用名称.herokuapp.com/?echostr=token”，当浏览器返回“*token*”时，就意味着你的服务器已经就绪。
 
+写到这里，如何申请微信公众账户，和服务器的搭建就介绍完全了。接下来所需要的就是修改服务器代码，以便适应自己的业务需求。如有问题，可以关注我的[*微博*](http://www.weibo.com/u/1225704387/home?wvr=5)，或者发邮件给我[*don.yangdong@gmail.com*](mailto:don.yangdong@gmail.com), 谢谢！
+
