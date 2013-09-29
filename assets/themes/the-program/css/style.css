@@ -1521,3 +1521,6 @@ li.post {
   top: 200px;
   transform: rotate(-45deg);
 }
+img {
+  margin: auto;
+}
