@@ -11,6 +11,8 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     colorator (0.1)
+    daemons (1.1.9)
+    eventmachine (1.0.6)
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
@@ -61,6 +63,10 @@ GEM
     redcarpet (3.2.3)
     safe_yaml (1.0.4)
     sass (3.4.14)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -73,3 +79,4 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   rack-jekyll
+  thin
