@@ -131,9 +131,8 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
   font-size: 1em;
+  line-height: 1em;
 }
 /* Improve readability of pre-formatted text in all browsers */
 pre {
@@ -401,7 +400,7 @@ Calculation should be done via  http://j.mp/rNg5uA
 No styleguide reference.
 */
 body {
-  font-family: consolas, monaco, monospace;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1em;
   line-height: 1.625em;
 }
@@ -418,7 +417,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: UbuntuMono-B, consolas, monaco, monospace;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 h1,
 .h1 {
@@ -505,7 +504,7 @@ No styleguide reference.
  * http://www.fontsquirrel.com/fonts/Comfortaa
 */
 @font-face {
-  font-family: 'UbuntuMono-B';
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   src: url('/assets/themes/the-program/font/UbuntuMono-B-webfont.eot');
   src: url('/assets/themes/the-program/font/UbuntuMono-B-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/themes/the-program/font/UbuntuMono-B-webfont.woff') format('woff'), url('/assets/themes/the-program/font/UbuntuMono-B-webfont.ttf') format('truetype'), url('/assets/themes/the-program/font/UbuntuMono-B-webfont.svg#UbuntuMono-B') format('svg');
   font-weight: normal !important;
@@ -577,7 +576,7 @@ pre {
   color: #f2f2f2;
   background-color: #393939;
   border: 1px solid #393939;
-  font-family: consolas, monaco, monospace;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   margin-left: 0;
   margin-right: 0;
   padding: 1.625em;
@@ -590,7 +589,8 @@ pre {
 /* HEADER
 --------------------------------------------------------------------------------- */
 .the-header .logo {
-  font-family: UbuntuMono-B, consolas, monaco, monospace;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+font-size: 16px;
   margin: 0;
 }
 .the-header .logo a:visited {
@@ -1481,22 +1481,15 @@ li.post {
   list-style: none;
 }
 .post .date {
-  background-color: black;
-  color: white;
+  color: #aaa;
+  text-transform: uppercase;
 }
 .post a.title:link {
   border-bottom: 0;
 }
 .post .title {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 60px;
-}
-.post .title:before {
-  background-color: green;
-  width: 10px;
-  content: "\00a0";
-  padding: 10px 0;
-  margin-right: 10px;
 }
 .post {
   border-bottom: 1px solid green;
@@ -1523,4 +1516,10 @@ li.post {
 }
 img {
   margin: auto;
+}
+a {
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: initial;
+  transition-delay: initial;
 }
