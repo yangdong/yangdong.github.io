@@ -102,7 +102,7 @@ strong {
   font-weight: bold;
 }
 blockquote {
-  margin: 1em 40px;
+  margin: 20px 40px;
 }
 dfn {
   font-style: italic;
@@ -463,9 +463,6 @@ aside {
 .font-size-default {
   font-size: 1em;
 }
-blockquote {
-  font-weight: bold;
-}
 blockquote cite {
   font-weight: normal;
 }
@@ -658,8 +655,9 @@ font-size: 16px;
   border-bottom: 1px dashed #d08688;
 }
 .unit-article blockquote {
-  border-left: 1em solid rgba(21, 25, 25, 0.8);
-  padding-left: 1em;
+  border-left: 4px solid gray;
+  padding-left: 40px;
+  color: gray;
 }
 .unit-article blockquote p {
   margin-left: 0;
