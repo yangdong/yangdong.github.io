@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Yang Dong
+title : Continuous Improvement
 tagline: Site Tagline
 author :
   name : Yang Dong
@@ -124,3 +124,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 paginate: 5
+paginate_path: "posts/:num"
