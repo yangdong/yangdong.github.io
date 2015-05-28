@@ -2,7 +2,6 @@
 layout: post
 title: "休息是为了更好的前行"
 description: ""
-category: 随笔
 tags: []
 ---
 {% include JB/setup %}

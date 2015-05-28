@@ -2,7 +2,6 @@
 layout: post
 title: "新加入一个团队，我们应该怎么做？"
 description: ""
-category: 
 tags: [team]
 ---
 {% include JB/setup %}

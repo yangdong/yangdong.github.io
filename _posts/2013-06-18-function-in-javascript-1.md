@@ -2,10 +2,7 @@
 layout: post
 title: "你了解javascript中的function吗?(1)"
 description: ""
-category: 
 tags: [javascript]
-tagline: 构造函数
-language: javascript
 ---
 
 ### 回顾 ###

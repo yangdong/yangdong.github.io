@@ -2,7 +2,6 @@
 layout: post
 title: "你了解javascript中的function吗?(0)"
 description: ""
-category: 
 tags: []
 ---
 {% include JB/setup %}

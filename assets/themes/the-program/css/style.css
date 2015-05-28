@@ -156,11 +156,6 @@ Lists from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
 */
-ul,
-ol {
-  margin: 0;
-  padding: 0 0 0 40px;
-}
 dd {
   margin: 0 0 0 40px;
 }
@@ -1394,4 +1389,31 @@ a {
 
 .next {
   float: right;
+}
+.post-meta {
+  font-size: 14px;
+}
+.post-meta li {
+  list-style: none;
+  float: left;
+  margin-left: 0;
+  padding-right: 10px;
+}
+.post-meta li a {
+  text-decoration: underline;
+  color: blue;
+}
+.post-meta li:before {
+  content: "\2022       ";
+}
+
+.misc-content {
+  border-bottom: 1px dotted gray;
+}
+.pagination {
+  margin: 20px 0 80px;
+}
+.pagination a {
+  text-decoration: underline;
+  color: blue;
 }

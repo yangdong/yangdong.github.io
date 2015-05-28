@@ -2,8 +2,7 @@
 layout: post
 title: "一场特殊的回顾会议"
 description: ""
-category: 
-tags: []
+tags: [retro]
 ---
 {% include JB/setup %}
 

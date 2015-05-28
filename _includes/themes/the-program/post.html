@@ -13,33 +13,27 @@
                 </div>
                 <!-- entry-content -->
                 <div class="misc-content">
-                    <div class="social">
+                    <!-- <div class="social">
                         <ul class="list-linear">
                             <li></li>
                         </ul>
-                    </div>
-                    <div class="meta">
-                        <p class="date-publish">
-                            Published:
-                            <date class="date-pub" title="{{ page.date | date_to_xmlschema }}"
+                    </div> -->
+                    <div class="post-meta">
+                    	<ul>
+                    		<li class="date-publish">
+                            	Posted by Yang Dong <date class="date-pub" title="{{ page.date | date_to_xmlschema }}"
                                   datetime="{{ page.date | date_to_xmlschema }}" pubdate>
                                 <span class="month">
                                     <abbr>{{ page.date | date: '%B' }}</abbr>
                                 </span>
                                 <span class="day">{{ page.date | date: '%d' }}</span>
                                 <span class="year">{{ page.date | date: '%Y' }}</span>
-                            </date>
-                        </p>
-                        <ul class="list-category list-linear">
-                            <li class="list-head">category:</li>
-                            {% assign categories_list = page.categories %}
-                            {% include JB/categories_list %}
-                        </ul>
-                        <ul class="list-tag list-linear">
-                            <li class="list-head">tags:</li>
+                            	</date>
+                        	</li>
                             {% assign tags_list = page.tags %}
                             {% include JB/tags_list %}
-                        </ul>
+                        <ul>
+                        <div style="clear: both" />
                     </div>
                     <!-- meta -->
                 </div>
@@ -62,7 +56,8 @@
                     {% if page.next %}
                     <div class="next">
                         <a class="internal" rel="next" href="{{ page.next.url }}"
-                           title="View {{ page.next.title }}">{{ page.next.title }} &raquo;</a>
+                           title="View {{ page.next.title }}">{{ page.next.title }} &raquo;
+                        </a>
                     </div>
                     {% endif %}
                 </nav>
