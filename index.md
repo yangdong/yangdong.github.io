@@ -10,7 +10,7 @@ tagline: Continuous Improvement
   {% if post.categories.first != 'todo' %}
     <li class="post {{post.categories}}">
         <div class="date">{{ post.date | date_to_string }}</div>
-        <a class="title" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+        <div class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
         {{ post.content | split: '<!-- more -->' | first }}
         <a class="readmore" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>        
     </li>
