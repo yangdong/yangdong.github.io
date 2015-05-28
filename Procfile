@@ -1,1 +1,1 @@
-web: bundle exec jekyll build && bundle exec thin start -p $PORT
+web: bundle exec jekyll build && bundle exec jekyll serve -p $PORT
