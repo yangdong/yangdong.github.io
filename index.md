@@ -7,7 +7,7 @@ tagline: Continuous Improvement
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li class="post {{post.categories}}">
+    <li class="post {{post.tags}}">
         <div class="date">{{ post.date | date_to_string }}</div>
         <div class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
         {{ post.content | split: '<!-- more -->' | first }}
