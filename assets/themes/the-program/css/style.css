@@ -907,6 +907,9 @@ pre {
   img {
     max-width: 100%;
   }
+  body {
+    width: 100%;
+  }
 }
 /*
 	Tablet
