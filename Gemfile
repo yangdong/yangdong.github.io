@@ -2,5 +2,5 @@ source "https://rubygems.org"
 ruby "2.1.5"
 
 gem 'thin'
-gem 'jekyll'
-gem 'rack-jekyll'
+gem 'jekyll', '1.5.1'
+gem 'rack-jekyll', '0.4.1'
