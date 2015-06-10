@@ -36,7 +36,7 @@ html {
 }
 body {
   margin: auto;
-  width: 65%;
+  width: 60%;
   font-size: 1em;
   line-height: 1.4;
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62);
@@ -90,6 +90,7 @@ strong {
 }
 blockquote {
   margin: 20px 40px;
+  padding-left: 10px;
 }
 dfn {
   font-style: italic;
