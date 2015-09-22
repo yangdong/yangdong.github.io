@@ -1417,6 +1417,10 @@ a {
 .pagination {
   margin: 20px 0 80px;
 }
+.entry-content a {
+  text-decoration: underline;
+  color: blue;
+}
 .pagination a {
   text-decoration: underline;
   color: blue;
