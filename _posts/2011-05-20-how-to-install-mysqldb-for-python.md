@@ -24,7 +24,6 @@ mac上查询python是32位还是64位的命令是：
     /usr/local/mysql/bin/mysql: Mach-O 64-bit executable x86_64
     python setup.py build
 
-<!-- more -->
 如果出现以下信息：
 
 

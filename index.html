@@ -10,8 +10,7 @@ tagline: Continuous Improvement
     <li class="post {{post.tags}}">
         <div class="date">{{ post.date | date_to_string }}</div>
         <div class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
-        {{ post.content | split: '<!-- more -->' | first }}
-        <a class="readmore" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>        
+        {{ post.content }}
     </li>
   {% endfor %}
 </ul>

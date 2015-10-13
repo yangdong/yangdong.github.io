@@ -619,11 +619,6 @@ html {
     color: #2d2d2d;
 }
 
-.body .unit-body {
-    background-color: #fafafa;
-}
-
-
 /* LINK */
 
 a:link {
@@ -637,7 +632,7 @@ a:visited {
 }
 
 a:hover {
-    color: blue;
+    color: rgb(0, 108, 187);
     text-decoration: none;
 }
 
@@ -691,7 +686,7 @@ pre {
 --------------------------------------------------------------------------------- */
 
 .unit-article header {
-    border-bottom: 1px dashed gray;
+    border-bottom: 1px solid #e7e7eb;
     margin-bottom: 21px;
 }
 
@@ -1041,13 +1036,20 @@ pre {
         border: 1px solid rgba(0, 0, 0, 0.05);
         border-width: 0 1px 0 0;
     }
+    .the-header .unit-head .nav-global li:first-child {
+        border-width: 0;
+    }
     .the-header .unit-head .nav-global li a, .the-header .unit-head .nav-global li div {
         display: block;
         padding: 26px;
     }
     .the-header .unit-head .nav-global li a:hover {
-        background-color: #fff04a;
-        color: #474747;
+        background-color: rgb(0, 108, 187);
+        color: white;
+    }
+    .the-header .unit-head .nav-global li:first-child a:hover {
+        background-color: white;
+        color: black;
     }
     .the-header .unit-head .nav-global li:nth-child(2) {
         border-width: 0 1px;
@@ -1056,7 +1058,6 @@ pre {
         border-width: 0;
     }
     .the-header .unit-head .nav-global .logo {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         border-right: none 0;
         display: block;
         width: 100%;
@@ -1683,7 +1684,7 @@ li.post {
 }
 
 .post {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #e7e7eb;
     margin-bottom: 10px;
 }
 
