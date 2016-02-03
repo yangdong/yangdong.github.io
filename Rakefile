@@ -278,6 +278,12 @@ def theme_from_git_url(url)
   manifest
 end
 
+namespace :assets do
+  task :precompile do
+    puts `bundle exec jekyll build`
+  end
+end
+
 # Internal: Process theme package manifest file.
 #
 # theme_path - String, Required. File path to theme package.

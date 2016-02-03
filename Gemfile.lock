@@ -23,6 +23,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
+    kramdown (1.7.0)
     liquid (2.5.5)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -32,6 +33,8 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
+    puma (2.11.3)
+      rack (>= 1.1, < 2.0)
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -60,6 +63,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 1.5.1)
+  kramdown
+  puma
   rack-jekyll (= 0.4.1)
   rake
   thin
