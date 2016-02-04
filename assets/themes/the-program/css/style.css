@@ -1784,6 +1784,15 @@ a {
     background-color: rgb(0, 108, 187);
 }
 
-img.float-left {
+img[alt=float-left] {
     float:left;
+    width: 250px;
+}
+
+img[alt=img-mediu-size] {
+    width: 300px;
+}
+
+img[alt=hero-image] {
+    width: 500px;
 }

@@ -6,7 +6,7 @@ tags: [Team]
 ---
 
 
-{% img '' /assets/common/images/role-of-team-leader.jpg 500 %}
+![hero-image]({{ site.url }}/assets/common/images/role-of-team-leader.jpg)
 ### 新的机会
 
 有一天，你的老板找到你，他说你这段时间的表现都非常不错，我很欣赏你，正好呢，另外一个团队需要一个头，于是他决定把你提拔为那个团队的项目经理。这时的你可能会这么想，我将屌丝逆袭迎娶白富美。
@@ -28,7 +28,7 @@ tags: [Team]
 
 以上的答案还是不错的，已经说明你有很不错的观察能力和总结能力，不过团队负责人的职责可不仅仅是这些。我们先来看一下这个阶段的团队负责人，是什么样子了。一般来说，他将负责以下四个部分。
 
-{% img class /assets/common/images/responsibility-of-team-lead.png 300 300 'title text' 'alt text' %}
+![img-mediu-size]({{ site.url }}/assets/common/images/responsibility-of-team-lead.png)
 
 * **交付管理**。
 说白了就是要保证项目的按时交付，为了达到这样的目的，作为项目负责人需要关注交付范围，预算，人员计划，发布计划，并且需要实时监控项目进展，评估是否有潜在风险以及应对措施。
