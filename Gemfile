@@ -3,5 +3,5 @@ ruby "2.1.5"
 
 gem 'thin'
 gem 'rake'
-gem 'jekyll', '1.5.1'
-gem 'rack-jekyll', '0.4.1'
+gem 'jekyll', '2.4.0'
+gem 'rack-jekyll'
