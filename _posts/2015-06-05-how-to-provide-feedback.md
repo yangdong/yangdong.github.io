@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 你会给别人提反馈吗？
-description: ""
-category: 
 tags: [Team]
 ---
 ### 几个例子

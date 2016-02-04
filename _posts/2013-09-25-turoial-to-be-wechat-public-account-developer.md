@@ -1,12 +1,8 @@
 ---
 layout: post
 title: "简单几步成为微信公众平台开发者"
-description: ""
-category: 
 tags: [wechat, heroku, ruby]
-comments: true
 ---
-{% include JB/setup %}
 
 **“微信，是一个生活方式”**，这是微信的自我评价，是不是觉得如果那天不在朋友圈里分享一下自己的最新状态，并且收到几个赞和评价的话，会觉得空虚寂寞呢？它实实在在的改变了我们的生活方式。
 
