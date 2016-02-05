@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 程序员，你的安全感呢？
-tags: [Developer]
+tags: [程序员心理学]
 
 ---
 

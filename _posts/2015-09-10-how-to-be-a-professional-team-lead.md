@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 从自我驱动到带领10人团队
-tags: [Team]
+tags: [团队,领导力]
 ---
 
 
