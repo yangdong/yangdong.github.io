@@ -2,8 +2,9 @@
 layout: post
 title: 程序员，你的安全感呢？
 tags: [程序员心理学]
-
 ---
+
+![hero-image]({{ site.url }}/assets/common/images/feel-safe.jpg)
 
 ### <section class="rich-list">1</section> 同病相连
 
