@@ -1789,8 +1789,14 @@ img[alt=float-left] {
     width: 250px;
 }
 
+img[alt=img-small-size] {
+    width: 250px;
+}
 img[alt=img-mediu-size] {
     width: 300px;
+}
+img[alt=img-large-size] {
+    width: 400px;
 }
 
 img[alt=hero-image] {
