@@ -1798,7 +1798,9 @@ img[alt=img-mediu-size] {
 img[alt=img-large-size] {
     width: 400px;
 }
-
+img[alt=img-large-size-height] {
+    height: 300px;
+}
 img[alt=hero-image] {
     width: 500px;
 }
